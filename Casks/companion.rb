@@ -1,6 +1,6 @@
 cask "companion" do
-  version "0.1.3"
-  sha256 "d4104008cc110ee26391e8582c23133d47003c68614a676f321072fb97e68082"
+  version "0.1.4"
+  sha256 "47ec7d530093ac72c48b9df4d27bcfd8f4657c0fa48cb9c94f4f4f68653645cd"
 
   url "https://github.com/wraithyy/companion/releases/download/v#{version}/Companion_#{version}_aarch64.dmg"
   name "Companion"
