@@ -9,9 +9,7 @@ cask "companion" do
 
   app "Companion.app"
 
-  caveats <<~EOS
-    Companion is not code-signed. On first launch:
-      Right-click → Open, or run:
-      xattr -dr com.apple.quarantine /Applications/Companion.app
-  EOS
+  preflight do
+    system "xattr", "-dr", "com.apple.quarantine", "#{staged_path}/Companion.app"
+  end
 end
