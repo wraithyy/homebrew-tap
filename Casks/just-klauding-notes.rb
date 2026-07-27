@@ -4,10 +4,11 @@ cask "just-klauding-notes" do
 
   url "https://github.com/wraithyy/just-klauding-notes/releases/download/v#{version}/Just.Klauding.Notes_#{version}_universal.dmg"
   name "Just Klauding Notes"
-  desc "Native macOS app for a plain-markdown notes vault, powered by Claude Code"
+  desc "Plain-markdown notes vault app powered by Claude Code"
   homepage "https://github.com/wraithyy/just-klauding-notes"
 
   depends_on formula: "ripgrep"
+  depends_on macos: :big_sur
 
   app "Just Klauding Notes.app"
 
