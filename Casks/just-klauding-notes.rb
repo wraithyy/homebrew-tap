@@ -1,6 +1,6 @@
 cask "just-klauding-notes" do
-  version "0.6.0"
-  sha256 "9c88991e96e32b05691b3d6f3fe962f4f211096eb25009e86f747c736f0fb16f"
+  version "0.7.0"
+  sha256 "c273910469711b3ea52699d253756fe4712067c21805a7b3827eca927a489edd"
 
   url "https://github.com/wraithyy/just-klauding-notes/releases/download/v#{version}/Just.Klauding.Notes_#{version}_universal.dmg"
   name "Just Klauding Notes"
