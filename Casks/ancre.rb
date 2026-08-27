@@ -1,6 +1,6 @@
 cask "ancre" do
-  version "0.4.0"
-  sha256 "691e2a01cf2f11d688ec976be6f1bb5ca46efa3fddee64a18ac7b3cdca79a8a3"
+  version "0.4.1"
+  sha256 "a40e4a105c3ea74e9701257576380da46a60bcb2b7a50e0cb25627618da417df"
 
   url "https://github.com/wraithyy/ancre/releases/download/v#{version}/ancre-#{version}-macos.zip"
   name "ancre"
