@@ -7,7 +7,7 @@ cask "ancre" do
   desc "Hyprland-inspired tiling window manager for macOS"
   homepage "https://github.com/wraithyy/ancre"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ancre.app"
   binary "ancrectl"
