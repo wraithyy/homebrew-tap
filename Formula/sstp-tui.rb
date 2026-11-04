@@ -25,6 +25,6 @@ class SstpTui < Formula
   end
 
   test do
-    assert_match "sstp", shell_output("#{bin}/sstp --help 2>&1", 0)
+    assert_match "\"ok\":", shell_output("#{bin}/sstp list --json")
   end
 end
